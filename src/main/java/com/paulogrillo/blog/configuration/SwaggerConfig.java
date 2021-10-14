@@ -21,7 +21,7 @@ public class SwaggerConfig {
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("br.org.generation.blogpessoal.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.paulogrillo.blog.controllers"))
 				.paths(PathSelectors.any()).build().apiInfo(metadata()).useDefaultResponseMessages(false)
 				.globalResponses(HttpMethod.GET, responseMessage()).globalResponses(HttpMethod.POST, responseMessage())
 				.globalResponses(HttpMethod.PUT, responseMessage())
