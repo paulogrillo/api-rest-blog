@@ -1,4 +1,4 @@
 # API REST BLOG
 
-URL = https://pgt-crypto.netlify.app/
+URL = https://paulo-grillo.herokuapp.com/
 
