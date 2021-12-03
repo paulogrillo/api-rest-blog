@@ -1,6 +1,4 @@
-# deploy-blogpessoal
+# API REST BLOG
 
-URL = https://paulo-grillo.herokuapp.com/
+URL = https://pgt-crypto.netlify.app/
 
-Login de acesso api = root <br>
-Senha de acesso api = root
